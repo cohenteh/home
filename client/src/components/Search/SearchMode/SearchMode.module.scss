@@ -1,0 +1,16 @@
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.searchModeButton {
+  &:not(.pressed) {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &.pressed {
+    font-weight: bold;
+  }
+}

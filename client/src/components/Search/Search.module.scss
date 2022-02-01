@@ -1,0 +1,48 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchModeButton {
+    border: outset;
+    border-radius: 5px;
+
+    &.isPress {
+        border: solid 2px;
+    }
+
+    &:hover {
+        background-color: rgb(181, 194, 181);
+    }
+}
+
+.topText {
+    font-weight: 9;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #5260787a;
+    border: solid;
+    border-radius: 2px;
+    font-family: cursive;
+}
+
+
+
+
+
+
+.input {
+    padding: 5px;
+    margin: 10px;
+    ;
+}
+
+.warning {
+    color: red;
+}
+
+.deleteButton {
+    width: 50px;
+
+}

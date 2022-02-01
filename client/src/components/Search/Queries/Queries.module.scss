@@ -1,0 +1,25 @@
+.inputText {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.delete_searchButton {
+    cursor: pointer;
+    height: 20px;
+}
+
+.warning {
+    color: red;
+}
